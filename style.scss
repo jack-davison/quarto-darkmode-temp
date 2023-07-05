@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+$body-color:            black !default;
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+.headerband {
+  width: 100%;
+  height: 5px;
+  background: #0E4496;
+  overflow: hidden;
+}

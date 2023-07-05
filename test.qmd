@@ -1,0 +1,15 @@
+---
+title: "Test Doc"
+format: 
+  html:
+    self-contained: true
+include-in-header: header.html
+include-after-body:
+  text: |
+    <script type="application/javascript" src="light-dark.js"></script>
+theme:
+  light: [flatly, style.scss]
+  dark: [darkly, styledark.scss]
+---
+
+Text.
